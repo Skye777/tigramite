@@ -297,8 +297,8 @@ class LinearMediation(Models):
                  mask_type=None,
                  verbosity=0):
         # Initialize the member variables to None
-        self.phi = None
-        self.psi = None
+        self.phi = None     # path coefficient/direct CE
+        self.psi = None     # direct and indirect CE
         self.all_psi_k = None
 
         # Build the model using the parameters
